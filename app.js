@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 console.log(true);
 
 var app = express();
+console.log("og");
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
